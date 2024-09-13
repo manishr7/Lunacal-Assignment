@@ -47,7 +47,7 @@ function Gallerywidget() {
           </div>
           <div className="container2 flex flex-col justify-between w-full h-full px-2 ">
             <div className="relative ">
-              <ul class=" flex  bg-transparent rounded-2xl w-full md:h-12 lg:h-14   text-sm font-medium text-center">
+              <ul class=" flex  bg-transparent rounded-2xl w-full h-12 lg:h-14   text-sm font-medium text-center">
                 <li class=" w-32 md:w-[34%] lg:w-32  relative justify-start">
                   <button
                     class="cursor-default inline-block bg-customUlBackground w-full h-full font-customFont2 font-normal xl:font-medium md:text-[0.6rem] lg:text-sm xl:text-base xl:tracking-wider text-center rounded-2xl  text-white "
@@ -76,14 +76,14 @@ function Gallerywidget() {
                 <li class="w-20 md:w-16 lg:w-32 h-5/6 my-auto  relative ">
                   <div className="flex justify-end w-full h-full  ">
                     <button
-                      class="Imgbtn flex justify-center items-center my-auto bg-customBackground  md:w-7 md:h-7 lg:w-10 lg:h-10 rounded-full "
+                      class="Imgbtn flex justify-center items-center my-auto bg-customBackground w-8 h-8 md:w-7 md:h-7 lg:w-10 lg:h-10 rounded-full "
                       type="button"
                       onClick={slideLeft}
                     >
                       <FaArrowLeft size={22} />
                     </button>
                     <button
-                      class="Imgbtn flex justify-center items-center my-auto bg-customBackground md:w-7 md:h-7 lg:w-10 lg:h-10 rounded-full md:ml-2 lg:ml-4"
+                      class="Imgbtn flex justify-center items-center my-auto bg-customBackground w-8 h-8 md:w-7 md:h-7 lg:w-10 lg:h-10 rounded-full ml-2 lg:ml-4"
                       type="button"
                       onClick={slideRight}
                     >
