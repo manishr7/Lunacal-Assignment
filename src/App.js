@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Lefthalf from "./Components/Lefthalf";
+import Firstwidget from "./Components/Firstwidget";
+import Gallerywidget from "./Components/Gallerywidget";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="  min-h-screen h-fit  w-full px-6 py-24 md:py-16 xl:pl-6  xl:pr-16 rounded-[27px] bg-customBackground  ">
+      <div className=" flex flex-col w-full h-full xl:flex-row  xl:justify-between xl:h-[29.5rem]  ">
+        <Lefthalf />
+        <div className="flex flex-col justify-between w-full h-[28rem]  md:flex-row  md:h-[18rem]   xl:w-[37rem] xl:h-[31rem] xl:flex-col  xl:mx-auto ">
+          <Firstwidget />
+
+          <Gallerywidget />
+        </div>
+      </div>
     </div>
   );
 }
